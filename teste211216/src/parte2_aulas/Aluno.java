@@ -4,11 +4,7 @@ public class Aluno {
 	private String nome;
 	private int idade;
 	private int numero;
-	
-	public Aluno() {
 		
-	}
-	
 	public Aluno(String nome, int idade, int numero) {
 		this.nome = nome;
 		this.idade = idade;

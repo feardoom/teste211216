@@ -1,20 +1,13 @@
 package parte2_aulas;
 
 public class MomentoAvaliacao {
-	private Aluno aluno;
-	private int nota;
-	private int dificuldade;
-	private String data;
+	protected Aluno aluno;
+	protected int nota;
+	protected int dificuldade;
+	protected String data;
 	
 	public MomentoAvaliacao() {
 		
-	}
-	
-	public MomentoAvaliacao(Aluno aluno, int nota, int dificuldade, String data) {
-		this.aluno = aluno;
-		this.nota = nota;
-		this.dificuldade = dificuldade;
-		this.data = data;
 	}
 	
 	public Aluno getAluno() {

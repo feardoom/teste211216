@@ -4,10 +4,6 @@ public class Questao {
 	private String pergunta;
 	private double cotacao;
 	
-	public Questao() {
-		
-	}
-	
 	public Questao(String pergunta, double cotacao) {
 		this.pergunta = pergunta;
 		this.cotacao = cotacao;
