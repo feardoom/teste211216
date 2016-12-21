@@ -14,7 +14,7 @@ public class exercicio4 {
 		double lucro_bilhetes = 0;
 				
 		do {
-			c.writeLine("A pessoa vai comprar camisola do clube? ('c' para sim | 'n' para nao | 's' para sair)");
+			c.writeLine("A pessoa tem camisola do clube? ('c' para sim | 'n' para nao | 's' para sair)");
 			do {
 				opc = c.readC();
 			}while(opc!='c' && opc!='n' && opc!='s');
